@@ -21,17 +21,7 @@
                     ]
                 }
             }
-        },
-        methods: {
-            handleDateClick: function(arg) {
-                //this.calendarOptions.weekends = !this.calendarOptions.weekends;
-                alert('click');
-            },
-            toggleWeekends: function () {
-                //this.calendarOptions.weekends = !this.calendarOptions.weekends;
-                alert('butt');
-                this.calendar.destroy();
-            }
+        }
         }
     }
 </script>
